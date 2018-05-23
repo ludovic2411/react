@@ -1,0 +1,237 @@
+@keyframes woop
+  0%
+    transform: rotate(0deg)
+  100%
+    transform: rotate(360deg)
+body
+
+
+  #root
+      .wrapper
+        //background-attachment: fixed
+        font-family: "lato"
+        .Top_nav
+          background-color: #3b414d
+          height: 15vh
+          color: white
+          margin-top: -2.5vh
+          .nav_left
+            ul
+              list-style: none
+              margin-left: 6vw
+              margin-top: -3vh
+              width: 100%
+              li
+                padding: 1vh
+                display: inline
+                margin-left: 1vw
+                border: solid 0.25vh Lightgrey
+          .nav_right
+            ul
+              list-style: none
+              li
+                display: flex
+                margin-top: -8vh
+                margin-right: 2vw
+                float: right
+        .Section-1
+          box-sizing: border-box
+          padding: 0 35%
+          width: 100%
+          margin-top: -5vh
+          height: 85vh
+          font-size: 150%
+          color: white
+          font-weight: bolder
+          background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%)
+          #cloud
+            padding-top: 16vh
+            margin-left: 10vw
+            font-size: 300%
+          h1
+
+
+          p
+
+          button
+            margin-top: 2.5vh
+            margin-left: 10vw
+            background-color: transparent
+            border: solid 0.20vh white
+            border-radius: 10%
+            color: inherit
+            font-size: 100%
+          hr
+            color: white
+            margin-right: 14vw
+            margin-top: 3.2vh
+            width: 11.8%
+            transform: rotate(90deg)
+        .Section-2
+          padding-top: 15vh
+          background-color: white
+          color: Lightgrey
+          font-size: 150%
+          height: 55vh
+          .section-2-left
+            margin-top: -5vh
+            float: left
+            width: 40%
+            margin-left: 9vw
+            hr
+              margin-left: 0.5vw
+              width: 20%
+              color: Lightgrey
+          .section-2-right
+            float: right
+            margin-right: 9vw
+        .Section-3
+          height: 110vh
+          background-size: cover
+          background-image: url("./pic02.jpg")
+          padding-top: 10vh
+          .section-3-left
+            font-size: 500%
+            float: left
+            ul
+              margin-top: 5vh
+              margin-left: 10vw
+              list-style: none
+              display: grid
+              grid-template-columns: repeat(2,1fr)
+              grid-auto-rows: repeat(3,1fr)
+              grid-column-gap: 1em
+              grid-row-gap: 1.5em
+              li
+                border: solid 0.25vh Lightgrey
+                padding: 2vh
+                transform: rotate(45deg)
+              li:hover
+                animation-name: woop
+                animation-duration: 3s
+              #li-1
+                color: #4caf50
+                transform: rotate(315deg)
+              #li-2
+                color: #006666
+                margin-left: 2vw
+                transform: rotate(315deg)
+              #li-3
+                color: #e67e00
+                transform: rotate(315deg)
+              #li-4
+                color: #660066
+                transform: rotate(315deg)
+                margin-left: 1vw
+              #li-5
+                color: #004d66
+                transform: rotate(315deg)
+              #li-6
+                color: #990052
+                transform: rotate(315deg)
+                margin-left: 1vw
+          .section-3-right
+            font-size: 150%
+            color: Lightgrey
+            width: 50%
+            float: right
+          hr
+            margin-right: 60vw
+            width: 20%
+        .Section-4
+          margin-top: 10vh
+          margin-bottom: 10vh
+          color: #5564a4
+          font-size: 120%
+          h2
+            width: 30%
+            margin-left: auto
+            margin-right: auto
+          p
+            width: 30%
+            margin-left: auto
+            margin-right: auto
+          hr
+            width: 10%
+            margin-top: 5vh
+          .Section-4-grid
+            width: 95%
+            margin-left: 5vw
+            margin-right: auto
+            margin-top: 10vh
+            display: grid
+            grid-template-columns: repeat(3,1fr)
+            h3
+              margin-left: 5vw
+            p
+              width: 90%
+              margin-right: 8vw
+              text-align: center
+            button
+              opacity: 0.5
+              background-color: #6495ED
+              font-size: 120%
+              color: inherit
+              text-align: center
+              margin-top: 2vh
+              margin-left: 8vw
+              width: 25%
+              padding: 1vh
+              border-radius: 10%
+            button:hover
+              opacity: 1
+        .Section-5
+          background-image: url("./pic02.jpg")
+          background-size: cover
+          color: Lightgrey
+          font-size: 120%
+          padding-top: 10vh
+          padding-bottom: 10vh
+          h2
+            width: 25%
+            margin-left: auto
+            margin-right: auto
+          p
+              width: 25%
+              margin-left: auto
+              margin-right: auto
+          hr
+              width: 10%
+          .buttons
+              color: Lightgrey
+              font-size: 80%
+              width: 50%
+              margin-left: 35vw
+
+              button
+                padding: 1vh
+                margin-right: 2vw
+                color: Lightgrey
+                font-size: 120%
+                background-color: transparent
+                border-radius: 10%
+                width: 25%
+              #button_1
+                background-color: white
+              #button_1:hover
+                background-color: transparent
+              #button-2:hover
+                background-color: white
+        .Section-6
+          height: 40vh
+          padding-top: 10vh
+          background-image: linear-gradient(to bottom, #fddb92 0%, #d1fdff 100%)
+          padding-left: 35vw
+          p
+            color: Darkgrey
+            font-size: 300%
+            width: 50%
+          i
+            margin-left: 2vw
+          ul
+            color: Darkgrey
+            list-style: none
+            margin-left: -3vw
+            li
+              display: inline
+              margin-left: 2vw
